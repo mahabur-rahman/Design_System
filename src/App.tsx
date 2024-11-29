@@ -1,15 +1,19 @@
-
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
     <>
-     <h2> hello sentry</h2>
+      <h2> hello sentry</h2>
 
-     <button onClick={() => {throw new Error("OOps something wrong!");}}>Break the world</button>
+      <button
+        onClick={() => {
+          throw new Error("This is your first error!");
+        }}
+      >
+        Break the world
+      </button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
