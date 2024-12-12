@@ -1,19 +1,10 @@
-import "./App.css";
+const App = () => {
 
-function App() {
   return (
     <>
-      <h2> hello sentry</h2>
-
-      <button
-        onClick={() => {
-          throw new Error("This is your first error!");
-        }}
-      >
-        Break the world
-      </button>
+    <h2>Nest</h2>
     </>
   );
-}
+};
 
 export default App;
